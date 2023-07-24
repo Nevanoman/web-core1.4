@@ -1,15 +1,13 @@
 @font-face {
 	font-family: "TTLakes";
-	src: url(/TTLakes/TTLakes-Regular.woff) format('truetype');
-	font-weight: 200;
-	font-style: normal;
+	src: url(TTLakes/TTLakes-Regular.woff) format('truetype');
+
 }
 
 @font-face {
 	font-family: "TTLakes-Bold";
-	src: url(/TTLakes/TTLakes-Bold.woff) format('truetype');
-	font-weight: 200;
-	font-style: normal;
+	src: url(TTLakes/TTLakes-Bold.woff) format('truetype');
+
 }
 
 * {
@@ -97,7 +95,7 @@ button:hover {
 	left: -24px;
 	top: -5px;
 
-	content: url(/img/highlight.svg);
+	content: url(img/highlight.svg);
 
 }
 
