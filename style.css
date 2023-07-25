@@ -1,13 +1,11 @@
 @font-face {
 	font-family: "TTLakes";
 	src: url(TTLakes/TTLakes-Regular.woff) format('truetype');
-
 }
 
 @font-face {
 	font-family: "TTLakes-Bold";
 	src: url(TTLakes/TTLakes-Bold.woff) format('truetype');
-
 }
 
 * {
