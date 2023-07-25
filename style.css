@@ -1,13 +1,3 @@
-@font-face {
-	font-family: "TTLakes";
-	src: url(TTLakes/TTLakes-Regular.woff) format('truetype');
-}
-
-@font-face {
-	font-family: "TTLakes-Bold";
-	src: url(TTLakes/TTLakes-Bold.woff) format('truetype');
-}
-
 * {
 	margin: 0;
 	padding: 0;
@@ -21,9 +11,10 @@ button:hover {
 }
 
 .side-bar {
-	font-family: 'TTLakes';
+	font-family: 'TT Lakes';
 	width: 320px;
 	height: 1024px;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	overflow: hidden;
@@ -37,7 +28,12 @@ button:hover {
 
 .header {
 	display: flex;
-	justify-content: flex-start
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 46px;
+	padding-right: 24px;
+	padding-left: 24px;
+
 }
 
 .button {
@@ -48,21 +44,14 @@ button:hover {
 	border-radius: 50%;
 	border: none;
 	text-decoration: none;
-
 }
 
-.header__button {
-	margin-top: 23px;
-	margin-left: 24px;
-	margin-right: 0;
-
+.button--right-side {
+	margin-left: auto;
 }
-
 
 .logo {
-	margin-top: 18px;
 	margin-left: 16px;
-	margin-right: 54px;
 
 }
 
@@ -72,9 +61,7 @@ button:hover {
 }
 
 .main-menu {
-	margin-top: 46px;
 	margin-left: 24px;
-
 }
 
 .navigation__list {
@@ -85,16 +72,13 @@ button:hover {
 	position: relative;
 	margin-bottom: 32px;
 	color: rgba(126, 126, 130, 1);
-
 }
 
 .nav-botton--focus::before {
 	position: absolute;
 	left: -24px;
 	top: -5px;
-
 	content: url(img/highlight.svg);
-
 }
 
 .link {
@@ -103,7 +87,6 @@ button:hover {
 	line-height: 24px;
 	letter-spacing: -0.2px;
 	text-decoration: none;
-
 }
 
 .nav-botton {
@@ -115,8 +98,6 @@ button:hover {
 	height: 124px;
 	margin-left: 24px;
 	margin-top: 218px;
-
-
 }
 
 .footer__buttons {
@@ -127,8 +108,6 @@ button:hover {
 
 .footer__info {
 	list-style-type: none;
-
-
 }
 
 .mail {
@@ -136,19 +115,16 @@ button:hover {
 }
 
 .tel {
-	font-family: "TTLakes-Bold";
+	font-family: "TT Lakes";
+	font-weight: bold;
 	margin-bottom: 40px;
-
 }
 
 .tel__link {
 	font-size: 24px;
 	line-height: 32px;
 	letter-spacing: -0.6px;
-
 }
-
-.footer__languages {}
 
 .link-focus {
 	color: rgba(126, 126, 130, 1)
